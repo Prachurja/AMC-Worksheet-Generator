@@ -9,7 +9,6 @@ import math
 from progress.bar import Bar
 from alive_progress import alive_bar
 from selenium.webdriver.edge.options import Options
-import convertapi
 from time import sleep
 
 
