@@ -204,7 +204,7 @@ worksheet_html_content = f"""<!DOCTYPE html>
 </head>
 <body style="padding: 2em; font-family: Courier New">
 	<h1 style="padding-bottom: 1em">Problems</h1>
-	<ol>
+	<ol start="{start}">
 	{worksheet_problems_string}
 	</ol>
 
@@ -212,7 +212,7 @@ worksheet_html_content = f"""<!DOCTYPE html>
 	<br/>
 
 	<h1 style="padding-bottom: 1em">Solutions</h1>
-	<ol>
+	<ol start="{start}">
 	{worksheet_solutions_string}
 	</ol>
 </body>
